@@ -21,17 +21,7 @@ function checkTarget(){
 }
 console.log(checkTarget(arr, target)); */
 
-/* const parentesis = "";
-function checkParenthesis(string){
-    if(string === "()") {
-        console.log(true);
 
-} else{
-    console.log(false);
-}  
-
-}
-checkParenthesis("(())"); */
 
 let string = '()'
 function checkParenthesis(string) {
