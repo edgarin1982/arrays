@@ -17,7 +17,7 @@ console.log('respuesta con every', resp2);
 const team = [
     {
       name: "Nicolas",
-      age: 15,
+      age: 11,
     },
     {
       name: "Andrea",
@@ -29,7 +29,7 @@ const team = [
     },
     {
       name: "Santiago",
-      age: 8,
+      age: 12,
     },
   ];
 const resp3 = team.every(item => item.age <= 15)    
