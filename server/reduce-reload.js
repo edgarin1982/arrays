@@ -40,7 +40,7 @@ const data = [
 
   const respuesta2 = data
 
-  .map(item => item.level)
+  .map(item => item.level && item.name)
   .reduce((objeto, item)=>{
     if (!objeto[item]) {
       objeto[item] = 1;    
