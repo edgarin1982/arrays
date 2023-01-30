@@ -15,3 +15,29 @@ console.log('usando ciclo for', respfor );
 
 const resp1 = numbers.find(item => item === 29);
 console.log('usando metodo find',resp1);
+
+const products = [
+    {
+      name: "Pizza",
+      price: 12,
+      id: '🍕'
+    },
+    {
+      name: "Burger",
+      price: 23,
+      id: '🍔'
+    },
+    {
+      name: "Hot dog",
+      price: 34,
+      id: '🌭'
+    },
+    {
+      name: "Hot cakes",
+      price: 355,
+      id: '🥞'
+    },
+  ];
+
+  const resp4 = products.findIndex(item => item.id === '🌭')
+  console.log('find', resp4);
