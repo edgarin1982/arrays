@@ -36,3 +36,6 @@ const resp3 = team.every(item => item.age <= 15)
 
   console.log('every', resp3);
   //todos sean menor de 15
+
+
+  //every todos los elementos deben cumplir con la condicion
